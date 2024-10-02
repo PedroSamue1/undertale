@@ -1,0 +1,21 @@
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.cor{
+   text-align: center;
+   font: size 50px; 
+   color: rgb(233, 138, 233);
+
+}
+
+#dov{
+    display: flex;
+    justify-content:center ;
+
+
+}
