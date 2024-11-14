@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>infoUndertale</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script>
+        function soma(){
+            var num1 = perseInt(document.getElementById("numero_1").value);
+            var num2 = perseInt(document.getElementById("numero_2").value);
+            console.log(num1+num2)
+            document.getElementById('resultado').innerHTML =num1+num2
+        }
+        function sub(){
+            var num1 = perseInt(document.getElementById("numero_1").value);
+            var num2 = perseInt(document.getElementById("numero_2").value);
+            console.log(num1-num2)
+            document.getElementById('resultado').innerHTML =num1-num2
+    
+        }
+    </script>
     <style type="text/css">
          
     </style>
     <link rel="stylesheet" href="new.css">
 </head>
 <style>
+body{
+
+    background-color: white;
+}
+h1{
+
+    color: black;
+}
 p{
 
  text-align: center;
@@ -36,20 +59,21 @@ p{
           </ul>
                   
         <h1>infoUNDERTALE</h1> 
-        
+        <br>
+        <br>
     </div>
     
     <div id="dov">
      <div class="cor">
 
-
+      <h1>calculadora da alphys</h1>
       <div class="container text-center">
         <div class="row">
           <div class="col">
           
           </div>
           <div class="col">
-            <img src="imagens/Gerson_Sprite.webp">
+            <img src="imagens/png-transparent-undertale-alphys-games-undertale-thumbnail.png">
           </div>
           <div class="col">
            
@@ -62,18 +86,20 @@ p{
 
         <br>
         
-        <p>"Undertale" é um jogo indie criado por Toby Fox, lançado em 2015. A história se passa em um mundo subterrâneo habitado por monstros, que foram aprisionados por humanos após uma guerra. O jogador assume o papel de um humano que cai nesse mundo e deve navegar por ele, interagindo com diversas criaturas, algumas amigáveis e outras hostis. Uma das características mais marcantes de "Undertale" é a possibilidade de abordar as situações de diferentes maneiras: seja lutando, seja fazendo amizade com os monstros. As escolhas do jogador influenciam não apenas o desenrolar da narrativa, mas também o destino dos personagens, levando a múltiplos finais. Com um enredo envolvente, diálogos inteligentes e uma trilha sonora cativante, "Undertale" se destaca por sua profundidade emocional  e pela reflexão sobre temas como a empatia, a violência e as consequências de nossas ações.</p>
+        
+
+  <input type="number" id="numero_1">
+  <input type="number" id="numero_2">
+  <button onclick="soma()">soma</button>
+  <button onclick="sub()">sub</button>
        
-        <p>...</p>
+  <hr>
+
+  <h1 id="resultado">0</h1>
+       
       </div>
 
-    <h3>assistir</h3>
-    <a href="https://www.youtube.com/playlist?list=PLI_JLekVwq0NZbCxYYGbDOGPaJP5JQGgq">alanzoka undertale</a>
     <br>
-    <br>
-    <h3>comprar</h3>
-    <a href="https://store.steampowered.com/app/391540/Undertale/?l=portuguese">Steam</a>
-<br>
     <p>...</p>
 
 <br>
